@@ -1,0 +1,253 @@
+@media(min-width: 1200px){
+    .ocultar {
+        display: block;
+    }
+
+    .cabecalho {
+        padding: 24px 32px;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+    }
+    
+    .links .ocultar {
+        display: flex;
+    }
+    
+    .links li {
+        margin-right: 24px;
+    
+    }
+
+    .links button {
+        width: 144px;
+        height: 48px;
+        padding: 12px 24px;
+
+
+    }
+
+    .principal {
+        padding: 80px auto 0 auto;
+    }
+
+    .principal h1 {
+        font-size: 64px;
+        margin: 24px auto 16px auto;
+        
+    }
+
+    .principal h2 {
+        font-size: 40px;
+    }
+
+    .principal img {
+        width: 412px;
+        height: 104px;
+    }
+
+    .btn-principal button {
+        height: 56px;
+        width: 155px;
+        padding: 16px 32px;
+        margin-top: 48px;
+    
+    }
+
+    .conheca {
+        flex-direction: row-reverse;
+        padding-top: 100px;
+    }
+
+    .conheca img {
+        width: 544px;
+        height: 558px;
+    }
+
+    .conheca h2 {
+        font-size: 48px;
+    }
+
+    .blocos {
+        display: grid;
+        grid-template-areas: 
+        "bloco-1 bloco-2 bloco-2 bloco-3"
+        "bloco-4 bloco-4 bloco-5 bloco-5";
+        padding: 80px 32px;
+        gap: 32px;
+        justify-content: center;
+    }
+
+    .base-bloco h2 {
+        font-size: 32px;
+    }
+
+    .bloco-1 {
+        grid-area: bloco-1;
+        width: 280px;
+        height: 400px;
+    }
+
+    .bloco-2 {
+        grid-area: bloco-2;
+        width: 592px;
+        height: 400px;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .bloco-2 .txt-bloco {
+        margin-right: 240px;
+    }
+
+    .bloco-2 .img-bloco img {
+        width: 215px;
+        height: 464px;
+        padding: 0;
+        position: absolute;
+        right: 45px;
+        bottom: 32px;
+        display: block;
+    
+    }
+
+    .bloco-3 {
+        grid-area: bloco-3;
+        width: 280px;
+        height: 400px;
+    }
+
+    .bloco-4 {
+        grid-area: bloco-4;
+        width: 592px;
+        height: 400px;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .bloco-4 .txt-bloco {
+        margin-left: 260px;
+    }
+
+    .bloco-4 .img-bloco img {
+        width: 215px;
+        height: 464px;
+        padding: 0;
+        position: absolute;
+        left: 45px;
+        bottom: 32px;
+        display: block;
+    
+    }
+
+    .bloco-5 {
+        grid-area: bloco-5;
+        width: 592px;
+        height: 400px;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .bloco-5 .txt-bloco {
+        margin-right: 240px;
+    }
+
+    .bloco-5 .img-bloco img {
+        width: 215px;
+        height: 464px;
+        padding: 0;
+        position: absolute;
+        right: 45px;
+        top: 32px;
+        display: block;
+    
+    }
+
+    .planos {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .planos-blocos {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .planos-txt h2 {
+        font-size: 48px;
+    }
+
+    .plano-bloco-base {
+        height: 490px;
+        width: 384px;
+    }
+
+    .plano-bloco-base button {
+        width: 320px;
+    }
+
+    .plano-bloco-base-2 {
+        height: 530px;
+        
+    }
+
+    .download {
+        width: 1216px;
+        height: 542px;
+        margin: auto;
+        margin-top: 200px
+        ;
+    }
+
+    .download-txt {
+        margin: 140px 400px 400px 80px;
+        align-items: center;
+    }
+    
+    .download-txt h2 {
+        margin: 8px 0 8px 0;
+        font-size: 48px;
+    }
+    
+    .download-txt p {
+        margin-bottom: 32px;
+    }
+    
+    .download-txt img {
+        margin-bottom: 15px;
+        width: 178px;
+    }
+    
+    .download-rapaz img {
+        width: 466px;
+        height: 627px;
+        bottom: 0;
+        left: 798px;
+        position: absolute;
+    }
+
+    .footer-1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .links-footer {
+        display: flex;
+    }
+
+    .links-footer ul {
+        margin-right: 50px;
+    }
+
+    .footer-2 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+        text-align: center;
+    }
+}
